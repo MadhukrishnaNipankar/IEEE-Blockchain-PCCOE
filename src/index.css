@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Jura', sans-serif;
+  font-family: 'Kay Pho Du', serif;
+  /* font-family: 'Koulen', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif; */
 }
 
 code {
