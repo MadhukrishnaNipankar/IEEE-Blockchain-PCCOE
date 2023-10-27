@@ -12,7 +12,7 @@ function HomePage() {
           alt=""
           style={{
             width: "100%",
-            opacity: "0.7",
+            opacity: "1.5",
             height: "100%",
             zIndex: "-1",
             objectFit: "cover", // Ensure the background image covers the entire container
