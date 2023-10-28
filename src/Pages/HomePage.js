@@ -58,8 +58,6 @@ function HomePage() {
         </div>
       </div>
       <Aim />
-      <br />
-      <br />
     </>
   );
 }
