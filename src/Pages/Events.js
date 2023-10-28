@@ -16,6 +16,7 @@ function Events() {
             /* Add the blur effect */
             filter: "blur(1px)",
             webkitFilter: "blur(1px)",
+            backgroundColor: "black",
           }}
         />
 

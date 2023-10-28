@@ -18,6 +18,7 @@ function HomePage() {
             objectFit: "cover", // Ensure the background image covers the entire container
             filter: "blur(1px)",
             webkitFilter: "blur(1px)",
+            backgroundColor: "black",
           }}
         />
 
