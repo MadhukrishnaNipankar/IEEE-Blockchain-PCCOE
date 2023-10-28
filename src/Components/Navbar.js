@@ -1,4 +1,6 @@
+// Navbar.js
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,13 +10,13 @@ function Navbar() {
         style={{ fontSize: "1.5rem" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/" style={{ width: "10rem" }}>
+          <Link to="/" className="navbar-brand" style={{ width: "10rem" }}>
             <img
               src="/ieeeStudentBranchLogo.png"
               style={{ width: "100%" }}
               alt="IEEE Blockchain"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,12 +30,12 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="/">
+              <Link to="/" className="nav-link active">
                 IEEE PCCOE Blockchain
-              </a>
-              <a className="nav-link" href="/">
+              </Link>
+              <Link to="/events" className="nav-link">
                 Events
-              </a>
+              </Link>
             </div>
           </div>
         </div>

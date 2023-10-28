@@ -1,14 +1,11 @@
 import React from "react";
 
-// Component Imports
-import Aim from "../Components/Aim";
-
-function HomePage() {
+function Events() {
   return (
     <>
       <div style={{ height: "50rem", position: "relative" }}>
         <img
-          src="/assets/HomebgImg2.jpg"
+          src="/assets/EventsBg.jpeg"
           alt=""
           style={{
             width: "100%",
@@ -16,6 +13,7 @@ function HomePage() {
             height: "100%",
             zIndex: "-1",
             objectFit: "cover", // Ensure the background image covers the entire container
+            /* Add the blur effect */
             filter: "blur(1px)",
             webkitFilter: "blur(1px)",
           }}
@@ -38,30 +36,24 @@ function HomePage() {
               textShadow: "3px 3px black",
             }}
           >
-            IEEE PCCOE Blockchain Group
+            "What's In and What's Out in Blockchain for the Next 24 Months"
           </div>
           <p style={{ fontSize: "1.5rem", textShadow: "3px 3px black" }}>
-            - A tech-savvy community deeply passionate about every facet of
-            blockchain technology.
+            Unlocking the Future: Join Us at
           </p>
-
-          <div
+          <h3
             style={{
-              fontSize: "1.2rem", // Adjust font size for smaller screens
-              border: "2px solid white",
-              width: "7rem", // Adjust width for smaller screens
-              padding: "0.5rem", // Adjust padding for smaller screens
-              borderRadius: "0.7rem",
-              margin: "auto",
+              fontSize: "5rem",
+              color: "#eb4343",
+              textShadow: "black 7px 6px",
             }}
           >
-            India
-          </div>
+            BlockCon 2k23
+          </h3>
         </div>
       </div>
-      <Aim />
     </>
   );
 }
 
-export default HomePage;
+export default Events;
